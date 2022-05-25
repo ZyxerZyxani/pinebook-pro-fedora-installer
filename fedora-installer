@@ -5,7 +5,7 @@
 # *****************************
 
 # Fedora image read url as parameter
-FEDORAURL=${1:-"https://download.fedoraproject.org/pub/fedora/linux/releases/34/Workstation/aarch64/images/Fedora-Workstation-34-1.2.aarch64.raw.xz"}
+FEDORAURL=${1:-"https://builds.armdevelopers.com/pinebook-pro/releases/dev/Fedora32-KDE-Desktop-202009.0.pinebook-pro.img.xz"}
 FEDORARAW="$(basename -s .xz "${FEDORAURL}")"
 
 # Set globals
